@@ -4,16 +4,16 @@ import datetime
 from os.path import getsize
 
 # global variables definition
-appName = "DiogenesList"
+appName = "GoIndex"
 appVer = "1.0"
 genDate = datetime.datetime.now().strftime("%d/%m/%Y")
 genTime = datetime.datetime.now().strftime("%H:%M")
-appLink = "http://zapperdj.net"
+appLink = "https://drive.google.com/drive/my-drive"
 dirData = ""
 numFiles=0 
 numDirs=0 
 grandTotalSize=0
-linkFiles="false" # file linking not yet implemented
+linkFiles="true" # file linking not yet implemented
 
 
 
