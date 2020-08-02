@@ -118,8 +118,8 @@ def generateHTML(dirData,appName,appVer,genDate,genTime,title,appLink,numFiles,n
 
 # main program start point
 if len(sys.argv) < 3:    # check if required arguments are supplied
-    print "Missing arguments. This tool should be used as follows:"
-    print "    diogeneslist pathToIndex outputFileName"
+    print ("Missing arguments. This tool should be used as follows:")
+    print ("diogeneslist pathToIndex outputFileName")
 else:
     pathToIndex = str(sys.argv[1])
     title = str(sys.argv[2])
@@ -127,7 +127,7 @@ else:
         generateDirArray(pathToIndex)
         generateHTML(dirData,appName,appVer,genDate,genTime,title,appLink,numFiles,numDirs,grandTotalSize,linkFiles)
     else:
-        print "The specified directory doesn't exist"
+        print ("The specified directory doesn't exist")
 
     
         
